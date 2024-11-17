@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+}
+
+form {
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"], 
+.Form textarea{
+    width: 100%;
+    padding: 5px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.FormBotones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+.buttonSolicitud,
+.buttonCancelar {
+    font-size: inherit;
+    width: 120px; /* Ajusta el ancho según tus preferencias */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonSolicitud {
+    background-color: blue;
+    color: white;
+  }
+
+.buttonCancelar {
+    background-color: red;
+    color: white;
+}
+
+.buttonSolicitud:disabled {
+    opacity: 0.5; /* Ajusta la opacidad según tus preferencias */
+    cursor: not-allowed;
+}

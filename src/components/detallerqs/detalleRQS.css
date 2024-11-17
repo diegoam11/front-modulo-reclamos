@@ -1,0 +1,96 @@
+.detalleRQS {
+    width: 100%;
+    max-width: 75%; /* Ajusta el valor máximo según tus preferencias */
+    margin: 0 auto; /* Centra el elemento en la página */
+    padding: 3px;
+    background-color: #d9d9d9; /* Color de fondo de la sección */
+    border: 1px solid #fff; /* Borde con color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .infoRQS {
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+    align-content: center;
+    border: 1px solid #d9d9d9;
+  }
+
+  .informacionRQS {
+    border-top: 3px solid #d9d9d9;
+    border-bottom: 3px solid #d9d9d9;
+    border-radius: 0px;
+  }
+
+  .informacionRQS div h2 {
+    display: initial;
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  .informacionRQS p {
+    /*display: flex;*/
+    align-items: content;
+    font-size: 18px;
+  }
+
+  .informacionRQS p span {
+    width: 250px; /* Ancho del span, ajusta según sea necesario */
+    text-align: right; /* Alinea el texto a la derecha del span */
+    margin-right: 10px; /* Espacio entre el span y el texto siguiente */
+  }
+  
+  .informacionRQS div{
+    border-top: 2px solid #d9d9d9;
+  }
+
+
+  
+  .detalleRQS h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-top: 40px;
+  }
+  
+  .detalleRQS p {
+    margin: 5px ;
+    font-size: 18px;
+    font-size: inherit;
+  }
+  
+  .detalleRQS a {
+    color: #0074d9; /* Color de enlace */
+    text-decoration: none;
+  }
+  
+  .detalleRQS a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .botones-detalle {
+    display: flex !important;
+    align-items: center  !important;
+    justify-content: space-between  !important;
+  }
+  
+  .botones-detalle p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+  }
+  
+  .botones-detalle a {
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+    color: #007bff; /* Cambia el color del enlace según tus preferencias */
+  }
+  
+  .botones-detalle button {
+    /* Estilos para el botón, ajusta según tus necesidades */
+    padding: 8px 16px;
+    background-color: #28a745; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,55 @@
+.contenedor-recuadros{
+
+    display: flex;
+    align-items: center; /* Centramos los elementos horizontalmente */
+    
+
+}
+
+.ContTitulo{
+    padding: 10px;
+    background-color: rgb(30, 135, 233);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
+
+}
+
+.recuadro {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 40% ;
+}
+
+.recuadro h2 {
+    color: #333;  /* Color del texto del título */
+}
+
+.titulo{
+
+
+    font-size: 35px;
+    color: #fff;
+}
+
+p{
+
+    margin: 10px;
+
+}
+
+.TituloReclamo{
+
+    margin-top: 5px;
+
+}
+
+@media (min-width: 768px) {
+    .contenedor-recuadros {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

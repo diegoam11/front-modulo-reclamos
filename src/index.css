@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+}
+
+/* #root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+
+
+.Header h1 {
+  font-size: 1.5rem;
+}
+
+.Header svg {
+  font-size: 2rem;
+}
+
+.Footer {
+  padding: 0.75rem;
+  display: grid;
+  place-content: center;
+}
+
+
+
+@media only screen and (min-width: 610px) {
+  html {
+    font-size: 16px;
+  }
+
+  .Header h1 {
+    font-size: 2rem;
+  }
+
+  .Nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Nav ul {
+    text-align: right;
+  }
+
+  .Nav li:hover, 
+  .Nav li:focus, 
+  .Nav li:hover a, 
+  .Nav li:focus a  {
+    background-color: #eee;
+    color: #333;
+  }
+
+  .searchForm {
+    width: 50%;
+    padding: .5rem 0;
+  }
+ 
+  .searchForm input[type="text"] {
+    margin-left: 0.5rem;
+  }
+
+  .newPostForm textarea {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .Header svg {
+    font-size: 3rem;
+  }
+
+}
+
+/* Estilos que se aplican solo a elementos dentro de form con la clase SelectForm */
+div.SelectForm {
+  max-width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+div.SelectForm button {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: inherit;
+  border: none;  /* Elimina el borde */
+  outline: none; /* Elimina el contorno al enfocar el botón */
+  /* Hace que el fondo sea transparente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s;
+}
+
+div.buttonContainer {
+  flex: 1; /* Hace que cada div ocupe el mismo ancho dentro del contenedor principal */
+  border-right: 1px solid #ccc; /* Borde derecho para separar los botones */
+}
+
+div.buttonContainer:last-child {
+  border-right: none; /* Elimina el borde derecho del último div para evitar un espacio adicional */
+}
+
+div.SelectForm button.selected {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Formulario de Usuario */
+.FormUsuario {
+  max-width: 75%; /* Ancho del 75% de la pantalla */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.FormUsuario h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.FormUsuario label {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.FormUsuario input[type="text"] {
+  width: 100%; /* Ancho del 75% de su contenedor */
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Agrega espacio entre el label y el input */
+.FormUsuario label input[type="text"] {
+  margin-top: 5px;
+}
+
+/* Agrega más estilos según sea necesario */
+
+
+
+
+
+
